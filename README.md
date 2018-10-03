@@ -1,2 +1,3 @@
 # KarmaJasmineExample
-Test
+
+Sample Karma / Jasmine testing in JET application
