@@ -1,0 +1,33 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "An Oracle JavaScript Extension Toolkit(JET) web app",
+  "scripts":{
+    "test": "karma start",
+    "test-build": "ojet build && karma start"
+  },
+  "dependencies": {
+    "@oracle/oraclejet": "~5.2.0"
+  },
+  "devDependencies": {
+    "@oracle/grunt-oraclejet": "~5.2.0",
+    "@oracle/oraclejet-tooling": "~5.2.0",
+    "grunt": "^1.0.1",
+    "jasmine-core": "^3.2.1",
+    "karma": "^3.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-coverage": "^1.1.2",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-requirejs": "^1.1.0",
+    "load-grunt-config": "0.19.2",
+    "qunit": "^2.4.1",
+    "qunit-reporter-junit": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "private": true
+}
